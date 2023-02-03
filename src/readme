@@ -1,0 +1,24 @@
+1)
+I initially used the naive solution to solve this problem. I used two for-loops to interate through the array until I found the sum.
+However, after some thinking about hashmaps and Googling, I realized that you could use a hashmap to store the index of the values you are trying to sum.
+The time complexity is linear O(n) because we only traverse the array once.
+The space complexity in O(n) because we enter some subset of the array into a new hashmap.
+
+2)
+For this problem, it was clear by the specification of O(logn) that we would use a binary search to find the indices.
+I tried initially to find both the first and last indices in one pass, but realized that simply doing two loops still results in O(logn).
+The time complexity is O(n)
+Space complexity is n/a
+
+3)
+This was the hardest of the problems in this assignment for me to approach. The obvious but slow solution is two simply iterate through each array, merging them, then calculate the median.
+However, I used the Youtube channel Neetcode to understand his Python O(log(m+n)) solution. After watching his video and drawing the solution for myself, the solution to the problem became a bit more clear. I still need to review this solution and generalize the algorithm in order to do it in other languages.
+The time complexity is O(log(m+n)).
+
+4)
+This was the easiest solution for me.
+I had done a problem similar to this one whilst learning about linked lists in community college. After drawing a couple examples, the solution using two pointers on the linked list became obvious.
+The time complexity is O(n)
+
+5)
+My brain is tired. I will do this in the morning
